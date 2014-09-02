@@ -290,7 +290,7 @@ MOBILE PHONE RESOLUTION STYLING
 *********************************/
 @media screen and (max-width: 480px){
 	.firstcontainer{
-	background-image:url('../image/imgback2.png');
+	background-image:url('../image/imgback2.PNG');
 	}
 	.firstcontainer div nav ul li{
 		display:block;
