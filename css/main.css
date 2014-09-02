@@ -1,0 +1,379 @@
+/*********************************
+			GENERAL
+*********************************/
+*{
+	font-family: Tahoma;
+}
+a{text-decoration: none;color:black;}
+body{
+	margin:0%;
+	padding:0%;
+	font-family:
+}
+#wrapper{
+	height:100%;
+	width:100%;
+	margin: 0%;
+}
+/*********************************
+			FIRST DIVISION
+*********************************/
+.firstcontainer{
+	height:100%;
+	width:100%;
+	background-image:url('../image/imgbck1.jpg');
+	background-repeat:no-repeat;
+	background-color:#c0c0c0;
+	background-size:100% 100%;
+}
+/*********************************
+	FIRST DIVISION HEADER
+*********************************/
+.firstcontainer div nav ul{
+text-align:right;
+margin-right:6%
+}
+.firstcontainer div nav ul li{
+	display:inline-block;
+	padding:2% 2% 0% 0%;
+	font-family:sans-serif;
+	font-size:1em;
+	font-weight:bold;
+}
+.firstcontainer div img{
+	margin:-1.8% 0% 0% 6%; 
+	height:10%;
+	width:15%;
+}
+/*********************************
+	FIRST DIVISION SECTION
+*********************************/
+.postjob{
+	margin:4% 0% 2% 13%;
+}
+.postjob h2{
+	font-size:3.0em;
+	margin-bottom:1%;
+	font-weight:bold;
+}
+.postjob p{
+	font-size:1.2em;
+	padding:.5% 0 0 0%
+}
+.postjob button{ 
+	background:green;
+	border:none;
+	border-style:none;
+	width:15%;
+	font-size:1.2em;
+	margin-top:1%;
+	padding:1.2% 1.5% 1.2% 1.5%
+}
+.postjob button a{
+	color:white;
+}
+/*********************************
+	FIRST DIVISION FOOTER
+*********************************/
+.hire{
+	margin-top:4%;
+	background: -webkit-linear-gradient(hsl(200,20%,15%),transparent);
+	border:none;
+}
+.hire h1{
+	padding-top:1.5%;
+	text-align:center;
+	font-size:7ex;
+	color:white;
+}
+.hire ul{
+	text-align:center;
+}
+.hire ul li{
+	display:inline-block;
+	font-size:1.5em;
+	color:white;
+	padding:1.5%;
+}
+/*********************************
+	SECOND DIVISION
+*********************************/
+#secondcontainer{
+	background-color:#f8f8ff;
+}
+#secondcontainer h2{
+	color: gray;
+	text-align:center;
+	padding:7% 0 4% 0;
+	font-size:3em;
+}
+.hworks{
+	width:100%;
+}
+.hworks div{
+	display:inline-block;
+	margin-bottom:3.5%;
+	padding:0% 1.5% 2% 1.5%;
+}
+.works{
+	width:10%;
+}
+.works img,p{
+	width:100%;
+}
+.hworks div p{
+	color: gray;
+	font-size:2.4ex;
+	padding-top:5%;
+}
+#arrow{
+	width:80px;
+	height:80px;
+	background:url('../image/img5.PNG') no-repeat;
+	background-size:100% 100%;
+}
+.par{
+	font-size:3ex;
+	padding-top:5%;
+	color: gray;
+}
+/*********************************
+		THIRD DIVISION
+*********************************/
+.thirdcontainer{
+	height:100%;
+	width:100%;
+	background-image:url('../image/imgbck5.PNG');
+	background-repeat:no-repeat;
+	background-color:#c0c0c0;
+	background-size:100% 100%;
+	background-color:-webkit-linear-gradient(hsl(50,20%,20%),transparent);
+	text-align: center;
+}
+.thirdcontainer div h3{
+	text-align:center;
+	font-size:7ex;
+	padding: 5.5% 0 4% 0;
+	font-weight:bold;
+}
+.thirdcontainer  p{
+	font-size:1.4em;
+	padding-bottom:0.65%;
+	text-align:center;
+}
+.thirdcontainer button{
+	text-align: center;
+	background:green;
+	border:none;
+	border-style:none;
+	width:16%;
+	font-size:1em;
+	margin:2% 0 3% 0%;
+	padding:1.2% 0% 1.2% 0%
+}
+.thirdcontainer button a{
+	color:white
+}
+/*********************************
+		FOURTH DIVISION
+*********************************/
+.fourthcontainer{
+	background:#fff;
+	text-align:center;
+}
+.fourthcontainer h3{
+	text-align:center;
+	font-size:2.85em;
+	padding: 2.5% 0 4.5% 0;
+	color:gray;
+}
+
+.logos div {
+	text-align:center;
+	display:inline-block;
+	padding:0% 2.5% 4.7% 0%;
+	margin:0%;
+	width:20%;
+}
+.logos div img{
+		width: 100%;}
+/*********************************
+		PAGE FOOTER
+*********************************/
+footer{
+	margin-top:3%;
+	background:#010110;
+}
+footer ul{
+	border-top:5px solid green;
+}
+footer ul li{
+	display:inline-block;
+	margin:3.5% -4% 1% 5%;
+	color:white;
+}
+footer ul li a{
+	color:white;
+}
+/*********************************
+TABLET DEVICE RESOLUTION STYLING
+*********************************/
+@media screen and (max-width: 1024px){
+	.firstcontainer div nav ul li{
+		font-size: 0.9em;
+	}
+	.firstcontainer div img{
+		margin:-3% 0% 0% 5%; 
+		height:15%;
+		width:20%;
+	}
+	.postjob h2{
+		font-size:4.5ex;
+	}
+	.postjob p{
+		font-size:2.3ex;
+	}
+	.postjob button{ 
+		width:18%;
+		font-size:1em;
+		margin-top:3%;
+		padding:1.2% 1.5% 1.2% 1.5%
+	}
+	.hire h1{
+		font-size:4ex;
+		font-weight:bold;
+	}
+	.hire ul li{
+		font-size:2.65ex;
+		padding:3% 0% 3% 1%;
+	}
+	#secondcontainer h2{
+		padding:2% 0 0% 0;
+		font-size:5.5ex;
+	}
+	.hworks div{
+		margin-bottom:1%;
+		padding:0%;
+	}
+	.hworks div p{
+		font-size:2ex;
+		padding-top:1%;
+		margin-bottom:2%
+	}
+	#arrow{
+		width:80px;
+		height:80px;
+		background:url('../image/img5.PNG') no-repeat;
+		background-size:100% 100%;
+		padding-bottom:10%;
+	}
+	.thirdcontainer div h3{
+		font-size:4.8ex;
+		padding: 3% 0 2.5% 0;
+	}
+	.thirdcontainer  p{
+		font-size:2.8ex;
+		font-family: times;
+	}
+	.thirdcontainer button{
+		width:15%;
+		font-size:0.8em;
+		margin:3% 0 5% 0%;
+		padding:1.2% 0% 1.2% 0%
+	}
+	.fourthcontainer h3{
+		font-size:1.5em;
+	}
+}
+/*********************************
+MOBILE PHONE RESOLUTION STYLING
+*********************************/
+@media screen and (max-width: 480px){
+	.firstcontainer{
+<<<<<<< HEAD
+	background-image:url('../image/imgback2.png');
+=======
+	background-image:url('../image/imgback2.PNG');
+>>>>>>> 61d265bcf077e444d9851cadd24ef1a2e1aa7f4c
+	}
+	.firstcontainer div nav ul li{
+		display:block;
+		font-size: 0.8em;
+	}
+	.firstcontainer div img{
+		margin:-15% 0% 0% 15%; 
+		height:20%;
+		width:25%;
+	}
+	.postjob h2{
+		font-size:1.8em;
+	}
+	.postjob p{
+		font-size:1em;
+	}
+	.postjob button{ 
+		width:25%;
+		font-size:1em;
+		margin-top:4%;
+		padding:1.2% 1.5% 1.2% 1.5%
+	}
+	.hire h1{
+		font-size:1.2em;
+		font-weight: bold;
+	}
+	.hire ul li{
+		font-size:.8em;
+		padding:3% 1% 5% 1%;
+	}
+	
+	#secondcontainer h2{
+		padding:2% 0 10% 0;
+		font-size:2em;}
+	.hworks div p{
+		font-size:0.8em;
+	}
+	.thirdcontainer div h3{
+		font-size:1.9em;
+		padding: 3% 0 2.5% 0;
+	}
+	.thirdcontainer  p{
+		font-size:1em;
+		font-family: times;
+	}
+	.thirdcontainer button{
+		width:25%;
+		font-size:0.8em;
+		margin:3% 0 5% 0%;
+		padding:1.2% 0% 1.2% 0%
+	}
+	.fourthcontainer h3{
+		font-size:1.5em;
+	}
+	.hworks div{
+		display:block;
+		margin-bottom:0%;
+		margin-top:0%;
+		padding:0% 1.5% 0% 1.5%;
+	}
+	.hworks div p{
+		font-size:2ex;
+		padding-top:1%;
+		margin-bottom:2%
+	}
+	.works{
+		width:80%;
+	}
+	.hworks div{
+		display:inline-block;
+		margin-bottom:-30%;
+		padding:0% 1.5% 0% 1.5%;
+		}
+	.works img{
+		width:20%;
+	}
+	#arrow{
+		background:url('') no-repeat;
+    }
+	footer ul li a{
+	font-size: .8em;
+}
