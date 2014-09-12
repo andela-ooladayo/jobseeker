@@ -40,8 +40,9 @@ margin-right:6%
 	font-size:1em;
 	font-weight:bold;
 }
-.firstcontainer div nav ul li:hover{
+.firstcontainer div nav ul li a:hover{
 	color:green;
+	font-size:1.1em;
 }
 .firstcontainer div img{
 	margin:-1.8% 0% 0% 6%; 
