@@ -21,7 +21,7 @@ body{
 .firstcontainer{
 	height:100%;
 	width:100%;
-	background-image:url('../imgbck1.jpg');
+	background-image:url('..image/imgbck1.jpg');
 	background-repeat:no-repeat;
 	background-color:#c0c0c0;
 	background-size:100% 100%;
