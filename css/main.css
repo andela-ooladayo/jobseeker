@@ -122,6 +122,9 @@ margin-right:6%
 .works{
 	width:10%;
 }
+.works:hover{
+	width:11%;
+}
 .works img,p{
 	width:100%;
 }
