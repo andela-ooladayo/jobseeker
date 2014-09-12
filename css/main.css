@@ -21,7 +21,7 @@ body{
 .firstcontainer{
 	height:100%;
 	width:100%;
-	background-image:url('..image/imgbck1.jpg');
+	background-image:url('../image/imgbck1.jpg');
 	background-repeat:no-repeat;
 	background-color:#c0c0c0;
 	background-size:100% 100%;
@@ -39,6 +39,9 @@ margin-right:6%
 	font-family:sans-serif;
 	font-size:1em;
 	font-weight:bold;
+}
+.firstcontainer div nav ul li:hover{
+	color:green;
 }
 .firstcontainer div img{
 	margin:-1.8% 0% 0% 6%; 
@@ -290,11 +293,7 @@ MOBILE PHONE RESOLUTION STYLING
 *********************************/
 @media screen and (max-width: 480px){
 	.firstcontainer{
-<<<<<<< HEAD
-	background-image:url('../image/imgback2.png');
-=======
-	background-image:url('../image/imgback2.PNG');
->>>>>>> 61d265bcf077e444d9851cadd24ef1a2e1aa7f4c
+		background-image:url('../image/imgback2.PNG');
 	}
 	.firstcontainer div nav ul li{
 		display:block;
